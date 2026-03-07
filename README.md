@@ -10,9 +10,9 @@ A minimalist, responsive web application for exploring dog breeds and discoverin
 To run this project on your local machine, follow these steps:
 
 1. **Clone the repository**:
-   ```bash
+
    git clone [https://github.com/jexica-dev/dogopedia.git](https://github.com/jexica-dev/dogopedia.git)
-  ``` 
+
 
 2. **Open the project**:
 Navigate to the project folder and open the index.html file in any modern web browser (Chrome, Firefox, Safari, or Edge).
