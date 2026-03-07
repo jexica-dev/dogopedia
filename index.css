@@ -6,6 +6,23 @@ html {
   text-align: center;
   font-weight: 500;
 }
+
+.dog-nav {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+#nav-library,
+#nav-facts {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background: #ffffff;
+  border: solid 1px black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 #dogList {
   display: flex;
   flex-wrap: wrap;
@@ -20,7 +37,6 @@ html {
   max-width: 200px;
   background: #fff;
   border: 1px solid #eaeaea;
-  /* border-radius: 8px; */
   padding: 10px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
@@ -78,6 +94,19 @@ html {
 
 .title-search-bar {
   flex: row;
+}
+
+.detail-img {
+  width: 80%;
+  height: auto;
+  margin: 20px auto; /* Centers the image */
+  display: block; /* Required for margin: auto to work */
+}
+
+@media (min-width: 750px) {
+  .detail-img {
+    width: 60%;
+  }
 }
 
 @media (max-width: 750px) {
